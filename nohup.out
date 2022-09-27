@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "timelapse.py", line 1, in <module>
+    from picamera import PiCamera
+ImportError: No module named picamera
+Traceback (most recent call last):
+  File "timelapse.py", line 1, in <module>
+    from picamera import PiCamera
+  File "/home/alisson/.local/lib/python3.8/site-packages/picamera/__init__.py", line 72, in <module>
+    from picamera.exc import (
+  File "/home/alisson/.local/lib/python3.8/site-packages/picamera/exc.py", line 41, in <module>
+    import picamera.mmal as mmal
+  File "/home/alisson/.local/lib/python3.8/site-packages/picamera/mmal.py", line 47, in <module>
+    from .bcm_host import VCOS_UNSIGNED
+  File "/home/alisson/.local/lib/python3.8/site-packages/picamera/bcm_host.py", line 47, in <module>
+    _lib = ct.CDLL('libbcm_host.so')
+  File "/usr/lib/python3.8/ctypes/__init__.py", line 373, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libbcm_host.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "timelapse.py", line 1, in <module>
+    from picamera import PiCamera
+ImportError: No module named picamera
